@@ -1,0 +1,45 @@
+//: acteur
+« »: classe
+"": attribut, instance
+
+The Cookie Factory™
+[service] « Cookies on Demand »
+
+permettra aux /clients/ de :
+	— faire leur sélection parmi notre "gamme de cookies" (recettes)
+	— d’en passer la « commande »
+	— de spécifier la "date" et l‘"heure" à laquelle ils viendront les chercher. (min 2H plus tard/horaire ouverture)
+
+	— créant un « compte utilisateur » sur Cookies on Demande
+	— il est possible d’"adhérer au Loyalty program” (qui  offre  après  30  cookies  commandés  un  « discount » de 10% sur la prochaine « commande ».)
+
+	— pour n’importe qui de créer une commande
+	— choisir sa « magasin » de récupération
+	— payer le "montant" dû par « carte de crédit ».
+	— présenter le "bon de commande" (chaque recette a un "prix" donné) obtenu depuis le système pour récupérer sa commande en magasin.
+
+« magasin »:
+	— « taxe » par « ingrédient » différente pour chaque magasin
+
+
+/responsables de magasin/:
+	—définir leurs « horaires d’ouverture ».
+	— affichage de « statistiques d’utilisation » de CoD ("heure de récupération").
+Les "prix hors taxe" des « ingrédients » sont les mêmes d’un magasin à un autre, mais les "taxes" changent pour chaque magasin.
+
+
+
+
+« commande »:
+	— ensemble de "cookies": « recettes » pré-existantes (“Sooo Chocolate”, le “Dark Temptation”, le “Chocolalala”)
+	— la "quantité" voulue
+
+« recette »:
+→ composée d'« ingrédients »
+	— « dough » ("Plain", "Chocolate", "Peanut butter", "Oatmeal", ...)
+	— « flavour » (Vanilla, Cinnamon, Chili, ...;)
+	— « topping » (White chocolate, Milk chocolate, M&M’sTM, Reese’s buttercup, ...;)
+	— « mix » (Mixed ou Topped;)
+	— « cooking » (Crunchy ou Chewy.)
+Une nouvelle « recette » est proposée tous les mois, et certaines recettes peuvent disparaître faute d’acheteurs. (use case: ajouter/supprimer recettes)
+
