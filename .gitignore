@@ -1,0 +1,15 @@
+# Visual Paradigm
+*.lck
+*.bak*
+
+# Vim
+~*
+**.swp
+
+# LaTeX
+*.toc
+*.fls
+*.aux
+*.fdb_latexmk
+*.log
+*.out
